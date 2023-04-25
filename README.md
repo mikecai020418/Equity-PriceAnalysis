@@ -1,6 +1,6 @@
 # Equity-PriceAnalysis
 
-. . . 
+. . X
 
 . . . 
 
