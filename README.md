@@ -1,1 +1,4 @@
 # Equity-PriceAnalysis
+. . . 
+. . . 
+. . .
