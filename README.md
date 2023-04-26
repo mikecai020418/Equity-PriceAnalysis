@@ -1,6 +1,6 @@
 # Equity-PriceAnalysis
 
-. . 谢谢炭
+. . X
 
 o o X 
 
