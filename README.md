@@ -1,7 +1,12 @@
 # Equity-PriceAnalysis
 
-. . X
+The Discounted Cash Flow (DCF) Model is one of the most commonly used methods to value equity. It is based on the principle that the value of any asset is equal to the present value of the cash flows that it generates in the future. In this project, we will be building a DCF Model and some other machine learning models to predict the amount of return from purchasing the stock of a company, which can help people interested in finance to have an automatic and easy-to-use technical toolkit in understanding the predicted future stock price of a company.
 
-o o X 
+To start off, we utilized financialmodeling.com API to get the financial statements, and create lists of company revenue, operating income, capital expense etc. from the financial statements. Then, we calculated more complex values like revenue growth rate and operating income margin from the existing lists, and visualized the trend of these values in graphs plotted using plotly express. We also visualized the detailed process of calculating free cash flow using dataframe, which fits the investment banking industry standard. Next, we set the future values of revenue growth rate to the average of historical values of revenue growth rate to predict future free cash flow, and obtained risk-free rate and Beta using web scraping. Utilizing these values, we calculated the discount rate, terminal value, and the predicted stock price range, and displayed the predicted stock price on top of historical stock price. To summarize our DCF model, we created a Graphic User interface(GUI) using PySimpleGUI that request users to input key information like stock ticker, API keys etc, and the GUI will output complete stock report with all aforementioned element plus our purchasing suggestion, based on the requirement of the user. 
 
-. . X
+**Flow Chart**
+
+
+**How to use the model:**
+
+The user can use our model easily by following the below steps. The first step is to create an account at https://financialmodelingprep.com/developer to obtain the user’s API key. One thing to note is that the user can subscribe to the membership to obtain more advanced features on the website to make our model more versatile. Next, the user runs the GUI code and simply follows the instructions on the interface to enter the stock name and specify what features they want the model to show. Then, they can receive their desired graph and the DCF modeling conclusion. After getting the DCF output, the user can run the simple machine-learning codes to get the prediction output. For reinforcement learning, the user should specify the window size, and the episode size to get the model-predicted output about how much total profit the agent can make. 
