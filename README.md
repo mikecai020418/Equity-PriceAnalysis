@@ -5,6 +5,7 @@ The Discounted Cash Flow (DCF) Model is one of the most commonly used methods to
 To start off, we utilized financialmodeling.com API to get the financial statements, and create lists of company revenue, operating income, capital expense etc. from the financial statements. Then, we calculated more complex values like revenue growth rate and operating income margin from the existing lists, and visualized the trend of these values in graphs plotted using plotly express. We also visualized the detailed process of calculating free cash flow using dataframe, which fits the investment banking industry standard. Next, we set the future values of revenue growth rate to the average of historical values of revenue growth rate to predict future free cash flow, and obtained risk-free rate and Beta using web scraping. Utilizing these values, we calculated the discount rate, terminal value, and the predicted stock price range, and displayed the predicted stock price on top of historical stock price. To summarize our DCF model, we created a Graphic User interface(GUI) using PySimpleGUI that request users to input key information like stock ticker, API keys etc, and the GUI will output complete stock report with all aforementioned element plus our purchasing suggestion, based on the requirement of the user. 
 
 **Flow Chart**
+<img width="879" alt="Screen Shot 2023-06-14 at 6 28 18 PM" src="https://github.com/mikecai020418/Equity-PriceAnalysis/assets/130042319/004a64af-ca9b-4fba-8ff0-df4a9edd97e0">
 
 
 **How to use the model:**
